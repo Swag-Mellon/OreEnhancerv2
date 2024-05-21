@@ -4,9 +4,9 @@ import net.minecraftforge.energy.CapabilityEnergy;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
 import net.minecraft.core.BlockPos;
 
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class SolarPanelUpdateTickProcedure {
@@ -19,15 +19,7 @@ public class SolarPanelUpdateTickProcedure {
 					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.canReceive()));
 				return _retval.get();
 			}
-		}.canReceiveEnergy(world, new BlockPos(x, y, z - 1)) && new Object() {
-			public int getEnergyStored(LevelAccessor level, BlockPos pos) {
-				AtomicInteger _retval = new AtomicInteger(0);
-				BlockEntity _ent = level.getBlockEntity(pos);
-				if (_ent != null)
-					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
-				return _retval.get();
-			}
-		}.getEnergyStored(world, new BlockPos(x, y, z)) >= 0 && world.canSeeSkyFromBelowWater(new BlockPos(x, y, z))) {
+		}.canReceiveEnergy(world, new BlockPos(x, y, z - 1)) && world instanceof Level _lvl && _lvl.isDay() && world.canSeeSkyFromBelowWater(new BlockPos(x, y, z))) {
 			{
 				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z - 1));
 				int _amount = 200;
