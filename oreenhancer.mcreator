@@ -59,9 +59,40 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/oreenhancer/block/SolarPanelBlock.java",
+          "src/main/java/net/mcreator/oreenhancer/block/entity/SolarPanelBlockEntity.java",
           "src/main/resources/assets/oreenhancer/models/block/solar_panel.json",
           "src/main/resources/assets/oreenhancer/blockstates/solar_panel.json",
           "src/main/resources/assets/oreenhancer/models/item/solar_panel.json"
+        ]
+      }
+    },
+    {
+      "name": "SolarPanelUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oreenhancer/procedures/SolarPanelUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
