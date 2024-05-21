@@ -26,9 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.oreenhancer.init.OreenhancerModTabs;
 import net.mcreator.oreenhancer.init.OreenhancerModItems;
 import net.mcreator.oreenhancer.init.OreenhancerModBlocks;
-import net.mcreator.oreenhancer.init.OreenhancerModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,12 +43,10 @@ public class OreenhancerMod {
 	private static int messageID = 0;
 
 	public OreenhancerMod() {
-
+		OreenhancerModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		OreenhancerModBlocks.REGISTRY.register(bus);
 		OreenhancerModItems.REGISTRY.register(bus);
-
-		OreenhancerModBlockEntities.REGISTRY.register(bus);
 
 	}
 
