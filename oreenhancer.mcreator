@@ -41,7 +41,7 @@
       "name": "Silvercraft",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "silvercraft",
       "metadata": {
         "files": [

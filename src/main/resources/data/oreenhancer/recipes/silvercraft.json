@@ -1,15 +1,18 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "0"
-  ],
-  "key": {
-    "0": {
-      "item": "oreenhancer:silver"
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
     }
-  },
-  "result": {
-    "item": "oreenhancer:silver",
-    "count": 1
-  }
+  ],
+  "results": [
+    {
+      "item": "oreenhancer:silver",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
 }
