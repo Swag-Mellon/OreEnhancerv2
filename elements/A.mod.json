@@ -2,10 +2,10 @@
   "_fv": 39,
   "_type": "achievement",
   "definition": {
-    "achievementName": "A",
-    "achievementDescription": "test",
+    "achievementName": "Revolutionary Age",
+    "achievementDescription": "Obtain \"Silver\" by mixing Gold & Iron",
     "achievementIcon": {
-      "value": "Blocks.GRASS"
+      "value": "Items.IRON_INGOT"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -15,10 +15,10 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 0,
-    "achievementType": "task",
+    "rewardXP": 150,
+    "achievementType": "goal",
     "parent": {
-      "value": "CUSTOM:E"
+      "value": "story/smelt_iron"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"50\" y=\"46\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "E",
-      "type": "achievement",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "e",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/oreenhancer/advancements/e.json"
-        ]
-      }
-    },
-    {
       "name": "A",
       "type": "achievement",
       "sortid": 1,
@@ -31,10 +18,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "advancements.a.title": "A",
-      "advancements.e.descr": "sus",
-      "advancements.a.descr": "test",
-      "advancements.e.title": "E"
+      "advancements.a.title": "Revolutionary Age",
+      "advancements.a.descr": "Obtain \"Silver\" by mixing Gold \u0026 Iron"
     }
   },
   "foldersRoot": {

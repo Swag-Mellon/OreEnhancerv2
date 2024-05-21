@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:iron_ingot"
     },
     "title": {
       "translate": "advancements.a.title"
@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.a.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -19,5 +19,8 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "oreenhancer:e"
+  "rewards": {
+    "experience": 150
+  },
+  "parent": "minecraft:story/smelt_iron"
 }
