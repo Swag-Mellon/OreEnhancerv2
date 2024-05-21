@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.obtain_silver.title"
+    },
+    "description": {
+      "translate": "advancements.obtain_silver.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_silver": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/smelt_iron"
+}

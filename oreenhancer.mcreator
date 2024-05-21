@@ -24,12 +24,26 @@
           "src/main/resources/data/forge/tags/items/ingots/silver.json"
         ]
       }
+    },
+    {
+      "name": "ObtainSilver",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oreenhancer/advancements/obtain_silver.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.oreenhancer.silver": "Silver"
+    }
   },
   "foldersRoot": {
     "name": "~",
