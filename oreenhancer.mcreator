@@ -3,6 +3,7 @@
     {
       "name": "E",
       "type": "achievement",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "e",
@@ -11,13 +12,28 @@
           "src/main/resources/data/oreenhancer/advancements/e.json"
         ]
       }
+    },
+    {
+      "name": "A",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oreenhancer/advancements/a.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.a.title": "A",
       "advancements.e.descr": "sus",
+      "advancements.a.descr": "test",
       "advancements.e.title": "E"
     }
   },
