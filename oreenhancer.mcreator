@@ -36,6 +36,18 @@
           "src/main/resources/data/oreenhancer/advancements/obtain_silver.json"
         ]
       }
+    },
+    {
+      "name": "Silvercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silvercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oreenhancer/recipes/silvercraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
