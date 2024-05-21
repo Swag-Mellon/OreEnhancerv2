@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "missing": "power_block_top"
+        "0": "spt"
       },
       "name": "default"
     }
