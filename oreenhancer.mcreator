@@ -1,22 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "OreEnhancer",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ore_enhancer",
-      "metadata": {
-        "files": []
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabore_enhancer": "Ore Enhancer"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
