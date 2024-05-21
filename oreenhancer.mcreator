@@ -12,12 +12,28 @@
           "src/main/resources/assets/oreenhancer/models/item/silver.json"
         ]
       }
+    },
+    {
+      "name": "ObtainSilver",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oreenhancer/advancements/obtain_silver.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.oreenhancer.silver": "Silver",
+      "advancements.obtain_silver.descr": "Obtain Silver by mixing Iron \u0026 Gold",
+      "advancements.obtain_silver.title": "Silver Revolution"
+    }
   },
   "foldersRoot": {
     "name": "~",
