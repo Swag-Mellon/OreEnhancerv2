@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "oreenhancer:block/solar_panel"
+    },
+    "facing=east": {
+      "model": "oreenhancer:block/solar_panel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "oreenhancer:block/solar_panel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oreenhancer:block/solar_panel",
+      "y": 270
     }
   }
 }
