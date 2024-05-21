@@ -1,5 +1,19 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Silver",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oreenhancer/item/SilverItem.java",
+          "src/main/resources/assets/oreenhancer/models/item/silver.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {

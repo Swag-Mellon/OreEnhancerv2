@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "oreenhancer:items/silver_item_texture"
+  }
+}
