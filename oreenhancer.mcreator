@@ -1,25 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Sus",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sus",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/oreenhancer/advancements/sus.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "advancements.sus.descr": "real",
-      "advancements.sus.title": "Sus"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
