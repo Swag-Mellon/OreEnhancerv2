@@ -12,6 +12,18 @@
           "src/main/resources/assets/oreenhancer/models/item/silver.json"
         ]
       }
+    },
+    {
+      "name": "Silvertag",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silvertag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/silver.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
