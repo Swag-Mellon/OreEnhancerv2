@@ -12,12 +12,26 @@
           "src/main/resources/data/oreenhancer/advancements/e.json"
         ]
       }
+    },
+    {
+      "name": "Silver",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oreenhancer/item/SilverItem.java",
+          "src/main/resources/assets/oreenhancer/models/item/silver.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.oreenhancer.silver": "Silver",
       "advancements.e.descr": "sus",
       "advancements.e.title": "E"
     }
