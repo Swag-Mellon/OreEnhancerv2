@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "Sus",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oreenhancer/advancements/sus.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.sus.descr": "real",
+      "advancements.sus.title": "Sus"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "oreenhancer",
+    "modName": "OreEnhancer",
+    "version": "1.0.0",
+    "author": "iammu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.oreenhancer",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
