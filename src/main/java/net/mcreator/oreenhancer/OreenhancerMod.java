@@ -28,8 +28,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oreenhancer.init.OreenhancerModTabs;
 import net.mcreator.oreenhancer.init.OreenhancerModItems;
-import net.mcreator.oreenhancer.init.OreenhancerModBlocks;
-import net.mcreator.oreenhancer.init.OreenhancerModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -46,10 +44,8 @@ public class OreenhancerMod {
 	public OreenhancerMod() {
 		OreenhancerModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		OreenhancerModBlocks.REGISTRY.register(bus);
-		OreenhancerModItems.REGISTRY.register(bus);
 
-		OreenhancerModBlockEntities.REGISTRY.register(bus);
+		OreenhancerModItems.REGISTRY.register(bus);
 
 	}
 

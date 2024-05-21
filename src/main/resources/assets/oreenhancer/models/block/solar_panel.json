@@ -1,8 +1,0 @@
-{
-  "parent": "oreenhancer:custom/solar_panel",
-  "textures": {
-    "all": "oreenhancer:blocks/spt",
-    "particle": "oreenhancer:blocks/spt",
-    "0": "oreenhancer:blocks/spt"
-  }
-}
