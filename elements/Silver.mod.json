@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "silver_item_texture",
     "customModelName": "Normal",
-    "name": "Silver",
+    "name": "Silver Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
