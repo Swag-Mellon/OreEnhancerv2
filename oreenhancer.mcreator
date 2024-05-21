@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "E",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/oreenhancer/advancements/e.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "advancements.e.descr": "sus",
+      "advancements.e.title": "E"
+    }
   },
   "foldersRoot": {
     "name": "~",
