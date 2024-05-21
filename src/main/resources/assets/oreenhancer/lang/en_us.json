@@ -1,5 +1,6 @@
 {
   "item.oreenhancer.silver": "Silver",
   "advancements.obtain_silver.descr": "Obtain Silver by mixing Iron \u0026 Gold",
-  "advancements.obtain_silver.title": "Silver Revolution"
+  "advancements.obtain_silver.title": "Silver Revolution",
+  "block.oreenhancer.solar_panel": "Solar Panel"
 }

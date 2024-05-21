@@ -48,6 +48,22 @@
           "src/main/resources/data/oreenhancer/recipes/silvercraft.json"
         ]
       }
+    },
+    {
+      "name": "SolarPanel",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oreenhancer/block/SolarPanelBlock.java",
+          "src/main/resources/assets/oreenhancer/models/block/solar_panel.json",
+          "src/main/resources/assets/oreenhancer/blockstates/solar_panel.json",
+          "src/main/resources/assets/oreenhancer/models/item/solar_panel.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -56,7 +72,8 @@
     "en_us": {
       "item.oreenhancer.silver": "Silver",
       "advancements.obtain_silver.descr": "Obtain Silver by mixing Iron \u0026 Gold",
-      "advancements.obtain_silver.title": "Silver Revolution"
+      "advancements.obtain_silver.title": "Silver Revolution",
+      "block.oreenhancer.solar_panel": "Solar Panel"
     }
   },
   "foldersRoot": {
@@ -77,6 +94,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.oreenhancer",
     "lockBaseModFiles": false
   },

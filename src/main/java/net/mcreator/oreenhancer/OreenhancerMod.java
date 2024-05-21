@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oreenhancer.init.OreenhancerModItems;
+import net.mcreator.oreenhancer.init.OreenhancerModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,7 +44,7 @@ public class OreenhancerMod {
 	public OreenhancerMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		OreenhancerModBlocks.REGISTRY.register(bus);
 		OreenhancerModItems.REGISTRY.register(bus);
 
 	}
